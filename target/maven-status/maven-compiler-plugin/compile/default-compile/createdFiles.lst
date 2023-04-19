@@ -1,0 +1,12 @@
+myapp/drivermanager/WebDriverFactory.class
+myapp/pages/fragments/AbstractPage.class
+myapp/pages/fragments/NavigationMenu.class
+myapp/flows/LoginFlow.class
+myapp/drivermanager/WebDriverCash.class
+myapp/flows/commonflow/HeaderActionMenuFlow.class
+myapp/utils/PopHelpers.class
+myapp/pages/fragments/HeaderActionMenu.class
+myapp/flows/commonflow/BaseFlow.class
+myapp/utils/WaitersManager.class
+myapp/pages/LoginPage.class
+myapp/flows/commonflow/NavigationMenuFlow.class
