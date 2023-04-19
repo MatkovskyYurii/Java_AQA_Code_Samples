@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Action Menu Tests">
+    <test name="Action Menu Test">
+        <classes>
+            <class name="org.headerTests.ActionMenuTest"/>
+            <class name="org.headerTests.NavigationMenuTest"/>
+        </classes>
+    </test>
+</suite>
