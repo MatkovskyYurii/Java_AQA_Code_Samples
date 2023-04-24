@@ -49,3 +49,35 @@ On the other hand, for Cucumber testing, Gherkin was used to define the test sce
 - **Product PageTests:** This test validates the product page functionality of the application by performing the following tasks:
   - Verifies the sort functionality of the page by sorting the prices from lowest to highest.
 
+
+## [API Framework]()
+### Structure 
+  - Created a basic URL configuration. 
+  - Tests were organized into classes based on endpoints such as user, register, and login. 
+  - The Rest-Assured (Given-When-Then) framework was used to structure each test scenario with clear statements of the test conditions, actions, and expected results. 
+  - Data Transfer Objects (DTOs) were used to represent the request and response payloads for API calls, making the tests more organized and easier to maintain. 
+  - In addition, **Lombok** was used to simplify the creation of DTOs by reducing the amount of boilerplate code needed for getters, setters, and constructors.
+  
+  <img width="1495" alt="Screenshot 2023-04-24 at 12 48 11" src="https://user-images.githubusercontent.com/85128259/233962374-2725f16d-5ce7-4485-b5bb-e10c07fc7752.png">
+
+<img width="1495" alt="Screenshot 2023-04-24 at 12 47 49" src="https://user-images.githubusercontent.com/85128259/233962087-ee24b9eb-a6b4-4e72-9016-963ae4e7e6e2.png">
+
+<img width="1477" alt="Screenshot 2023-04-24 at 12 24 48" src="https://user-images.githubusercontent.com/85128259/233956102-820eb7e4-6f5d-4edb-b264-2a61f68c827f.png">
+
+### [Test User Request](https://github.com/MatkovskyYurii/Java_AQA_Code_Samples/blob/Rest-Assured/src/test/java/app/TestUserRequest.java) 
+- **GET user data**
+   - Validate response 200
+   - Validate response with prepared test data
+
+- **GET List of users**
+  - Validate response 200
+  - User list is not null
+  - User list is not empty
+  - Support field is not null
+  - Support URL is not null or empty
+  - Support text is null or empty
+
+- **POST create user**
+  - Validate response 201
+  - Create user with test data and verify response data matches request data
+### Thank You!
